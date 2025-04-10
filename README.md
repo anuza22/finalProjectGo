@@ -1,4 +1,3 @@
-# chatAppGo
 # 💬 chatAppGo
 
 A lightweight, modular chat backend written in Go.  
@@ -46,13 +45,19 @@ Clone the repository:
 git clone https://github.com/anuza22/finalProjectGo.git
 cd finalProjectGo
 go mod tidy
+
 ▶️ Run the Application
 go run ./cmd/main.go
+
+
 🧪 Testing
 
 To run all unit tests:
 go test ./...
+
 ⚠️ Tests will be added as development progresses
+
+
 🛠 Technologies
 
 Component	Description
@@ -60,6 +65,7 @@ Go	Backend language
 net/http	HTTP server
 JWT	Token-based auth
 Modular Arch	Layered codebase
+
 🚀 Possible Extensions
 
  WebSocket for real-time chat
@@ -68,11 +74,12 @@ Modular Arch	Layered codebase
  Middleware for logging, CORS, tracing
  Docker support for containerization
  Full unit and integration test coverage
+
 👤 Authors
 
 Developed by Anuza, Alikhan, Ayazhan
 Final project @ KBTU University — Go Development Course
+
 📄 License
 
 This project is licensed under the MIT License.
-Feel free to use, modify, and distribute it.
